@@ -45,6 +45,7 @@
 		var centerer = old_map ? get_old_ll : get_new_ll;
 		var center = centerer(window.location.href);
 		var str = center.join(", ");
+		console.log(str);
 		alert(str);
 	};
 
