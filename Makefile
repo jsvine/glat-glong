@@ -3,8 +3,8 @@
 default:
 	@echo "No default rule"
 
-jshint:
-	find chrome/js -maxdepth 1 -name "*.js" -exec jshint {} \;	
+hint:
+	find glat-glong/js -maxdepth 1 -name "*.js" -exec jshint {} \;	
 
 zip:
 	cd glat-glong; zip -r ../glat-glong.zip .
