@@ -1,4 +1,7 @@
 (function () {
+	var root = this;
+	var nonalert_platforms = [ "Win32" ];
+	var suppress_alert = nonalert_platforms.indexOf(root.navigator.platform) > -1;
 	var old_map = document.getElementById("map");
 	var container = old_map || document.body;
 
@@ -46,7 +49,9 @@
 		var center = centerer(window.location.href);
 		var str = center.join(", ");
 		console.log(str);
-		alert(str);
+		if (!suppress_alert) {
+			alert(str);
+		}
 	};
 
 	dot.appendChild(dotInner);
