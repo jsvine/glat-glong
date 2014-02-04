@@ -4,6 +4,10 @@ Glat/Glong is a Chrome extension for finding the precise latitude and longitude 
 
 The extension adds a red dot at the center of the map. Clicking the dot reveals the center's coordinates. Glat/Glong works on both the new ("preview") and old versions Google Maps.
 
+__Mac/Linux users__: Coordinates will appear in an `alert` popup, as well as in the Chrome developer console.
+
+__Windows users__: Coordinates will appear in the Chrome developer console.
+
 <img width="49%" src="screenshots/cropped/1280x800/screenshot-0.png">
 <img width="49%" align="right" src="screenshots/cropped/1280x800/screenshot-1.png">
 
